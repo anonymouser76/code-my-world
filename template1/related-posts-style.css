@@ -1,0 +1,62 @@
+.related-posts {
+  float: left;
+  margin: 0px 5px;
+overflow: hidden;
+text-align: center;
+width: 110px;
+height: 206px;
+background-color: #fff;
+}
+.related-posts:hover {
+background-color: #F3F3F3; -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+.related-posts img:hover {
+-khtml-opacity:0.8;
+-moz-opacity:0.8;
+opacity:0.8;
+}
+
+.related-posts a {
+color: #linkcolor;
+display: inline;
+font-size: 10px;
+line-height: 1;
+}
+.related-posts img {
+margin-top: 2px;
+height: 82px;
+padding: 5px;
+width: 82px;
+border: 1px solid #fff;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .4);
+-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .4);
+box-shadow: 0 1px 2px rgba(0, 0, 0, .4);
+}
+.related-posts h6 {
+display: table-cell;
+height: 3em;
+margin: 5px 0 0;
+overflow: hidden;
+padding-bottom: 2px;
+vertical-align: middle;
+width: 130px;
+}
+
+.related-posts p {
+border-top: 1px dotted #777777;
+border-bottom: 1px dotted #777777;
+color: #summarycolor;
+font-size: 10px;
+height: 4em;
+line-height: 1;
+margin: 5px 0 0;
+overflow: hidden;
+padding: 5px 0px 15px 5px;
+text-align: left;
+}
