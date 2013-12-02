@@ -1,0 +1,2 @@
+document.write(&#39;&lt;div class=&quot;category&quot;&gt;&lt;a href=&quot;/search/label/&#39;+label5+&#39;?max-results=16&quot;&gt;&#39;+Title5+&#39;&lt;/a&gt; &lt;/div&gt;&#39;);
+document.write(&quot;&lt;script src=\&quot;/feeds/posts/default/-/&quot;+label5+&quot;?max-results=&quot;+numposts1+&quot;&amp;orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts2\&quot;&gt;&lt;\/script&gt;&quot;);
