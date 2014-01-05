@@ -1,0 +1,59 @@
+<html>
+<body>
+<script = "text/javascript">
+var userChoice = prompt("Do you choose
+rock, paper or scissors?"); var
+computerChoice = Math.random(); if
+(computerChoice < 0.34) {
+computerChoice = "rock"; } else if(computerChoice <= 0.67) {
+computerChoice = "paper"; } else {
+computerChoice = "scissors"; }
+
+var compare = function (choice1,
+choice2){
+if(choice1 === choice2){ 
+return "The result is a tie!"; }
+if(choice1 === "rock"){ 
+if(choice2 === "scissors"){ 
+return"rock wins";
+}
+
+else { 
+return"paper wins";
+} }
+
+if(choice1==="paper") {
+if(choice2==="rock") { return"paper
+wins!"; }
+
+else{ return"scissors wins!"; } }
+
+if (choice1 === "scissors") {
+if(choice2 === "rock"){
+return"rock wins!";
+}
+else {
+return"scissors wins";
+} } };
+
+console.log(userChoice);
+console.log(computerChoice);
+console.log(compare(userChoice,
+computerChoice));
+
+//this is a test for some of the
+outcomes:
+console.log(compare("rock","paper"));
+console.log(compare("rock","scissors"));
+console.log(compare("rock","rock"));
+console.log(compare("scissors","rock"));
+console.log(compare("scissors","scissors"));
+console.log(compare("scissors","paper"));
+console.log(compare("paper","rock"));
+console.log(compare("paper","scissors"));
+console.log(compare("paper","paper"));
+
+compare(userChoice, computerChoice);
+</script>
+</body>
+</html>
